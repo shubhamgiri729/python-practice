@@ -82,3 +82,37 @@ print("Inverted Pyramid Pattern")
 n=5
 for i in range(n):
     print(" "*i+"*"*(2*(n-i)-1))
+    
+'''
+print:Diamond Shape Star Pattern
+    *
+   ***
+  *****
+ *******
+*********
+*********
+ *******
+  *****
+   ***
+    *
+
+'''
+print("Diamond Shape Star Pattern")
+n=5
+for i in range(1,n+1):
+    print(" "*(n-i)+"*"*((2*i)-1))
+for i in range(n,0,-1):
+    print(" "*(n-i)+"*"*((2*i)-1))
+
+'''
+print:Square Shape Star Pattern
+*****
+*****
+*****
+*****
+*****
+'''
+print("Sqaure Shape Star Pattern")
+n=5
+for i in range(n):
+    print("*"*n)
